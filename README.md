@@ -78,3 +78,5 @@ seq([ 1,,,2,,,3,,, ]).take(2)                                   === seq([ 1,,,2 
 seq([1,,,2,,,3,,, ]).takeUntil(
 seq([ ,,, ,,4 , }))                                             === seq([ 1,,,2 ])
 ```
+
+Observable is like an array for asynchronous attributes like - events (DOM request), HTTP requests
